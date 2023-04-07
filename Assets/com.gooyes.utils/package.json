@@ -1,0 +1,12 @@
+{
+  "name": "com.gooyes.tools",
+  "version": "1.0.0",
+  "displayName": "Gooyes Tools",
+  "description": "Utilities to make life easier",
+  "unity": "2021.3",
+  "unityRelease": "0f1",
+  "keywords": [
+    "Gooyes",
+    "GooyesInc"
+  ]
+}

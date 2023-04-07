@@ -1,0 +1,327 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21b7c6b668391b34da6ee0e4f14f1650, type: 3}
+  m_Name: Tutorial
+  m_EditorClassIdentifier: 
+  isDone: 1
+  targetLevel: {fileID: 11400000, guid: 0a07a542792f9ab44b1af306c55d8ba1, type: 2}
+  loadOnStart: 1
+  tutorialSteps:
+  - id: 0
+    name: Start
+    objectives:
+    - id: 0
+      targetInteractableName: Background
+      type: 0
+      dialogueText: Hey! You are a new manager here, right?
+      dialogueType: 2
+      specificStartActions:
+        m_PersistentCalls:
+          m_Calls: []
+      specificEndActions:
+        m_PersistentCalls:
+          m_Calls: []
+    - id: 1
+      targetInteractableName: Background
+      type: 0
+      dialogueText: You're the one we're looking for
+      dialogueType: 0
+      specificStartActions:
+        m_PersistentCalls:
+          m_Calls: []
+      specificEndActions:
+        m_PersistentCalls:
+          m_Calls: []
+    - id: 2
+      targetInteractableName: Background
+      type: 0
+      dialogueText: We only have empty reception and manicure rooms now
+      dialogueType: 0
+      specificStartActions:
+        m_PersistentCalls:
+          m_Calls: []
+      specificEndActions:
+        m_PersistentCalls:
+          m_Calls: []
+    - id: 3
+      targetInteractableName: Background
+      type: 0
+      dialogueText: Unfortunately, nobody works here
+      dialogueType: 3
+      specificStartActions:
+        m_PersistentCalls:
+          m_Calls: []
+      specificEndActions:
+        m_PersistentCalls:
+          m_Calls: []
+    - id: 4
+      targetInteractableName: Background
+      type: 0
+      dialogueText: You should hire cashier in reception room!
+      dialogueType: 2
+      specificStartActions:
+        m_PersistentCalls:
+          m_Calls: []
+      specificEndActions:
+        m_PersistentCalls:
+          m_Calls: []
+    - id: 5
+      targetInteractableName: Background
+      type: 0
+      dialogueText: First, tap on reception room
+      dialogueType: 2
+      specificStartActions:
+        m_PersistentCalls:
+          m_Calls: []
+      specificEndActions:
+        m_PersistentCalls:
+          m_Calls: []
+    isActive: 0
+  - id: 1
+    name: FirstActions
+    objectives:
+    - id: 0
+      targetInteractableName: Reception
+      type: 1
+      dialogueText: 
+      dialogueType: 0
+      specificStartActions:
+        m_PersistentCalls:
+          m_Calls: []
+      specificEndActions:
+        m_PersistentCalls:
+          m_Calls: []
+    - id: 1
+      targetInteractableName: Background
+      type: 0
+      dialogueText: Now hire cashier
+      dialogueType: 2
+      specificStartActions:
+        m_PersistentCalls:
+          m_Calls: []
+      specificEndActions:
+        m_PersistentCalls:
+          m_Calls: []
+    - id: 2
+      targetInteractableName: Cashier
+      type: 2
+      dialogueText: 
+      dialogueType: 2
+      specificStartActions:
+        m_PersistentCalls:
+          m_Calls: []
+      specificEndActions:
+        m_PersistentCalls:
+          m_Calls: []
+    - id: 3
+      targetInteractableName: Close
+      type: 2
+      dialogueText: 
+      dialogueType: 2
+      specificStartActions:
+        m_PersistentCalls:
+          m_Calls: []
+      specificEndActions:
+        m_PersistentCalls:
+          m_Calls: []
+    - id: 4
+      targetInteractableName: Background
+      type: 0
+      dialogueText: Great!
+      dialogueType: 1
+      specificStartActions:
+        m_PersistentCalls:
+          m_Calls: []
+      specificEndActions:
+        m_PersistentCalls:
+          m_Calls: []
+    - id: 5
+      targetInteractableName: Background
+      type: 0
+      dialogueText: But we need employee at manicure room to earn money
+      dialogueType: 0
+      specificStartActions:
+        m_PersistentCalls:
+          m_Calls: []
+      specificEndActions:
+        m_PersistentCalls:
+          m_Calls: []
+    - id: 6
+      targetInteractableName: Background
+      type: 0
+      dialogueText: Hire manicurist!
+      dialogueType: 3
+      specificStartActions:
+        m_PersistentCalls:
+          m_Calls: []
+      specificEndActions:
+        m_PersistentCalls:
+          m_Calls: []
+    isActive: 0
+  - id: 2
+    name: SecondActions
+    objectives:
+    - id: 0
+      targetInteractableName: Manicure
+      type: 1
+      dialogueText: 
+      dialogueType: 0
+      specificStartActions:
+        m_PersistentCalls:
+          m_Calls: []
+      specificEndActions:
+        m_PersistentCalls:
+          m_Calls: []
+    - id: 1
+      targetInteractableName: Cashier
+      type: 2
+      dialogueText: 
+      dialogueType: 0
+      specificStartActions:
+        m_PersistentCalls:
+          m_Calls: []
+      specificEndActions:
+        m_PersistentCalls:
+          m_Calls: []
+    - id: 2
+      targetInteractableName: Background
+      type: 0
+      dialogueText: Wonderful! Let's train manicurist with new skills
+      dialogueType: 1
+      specificStartActions:
+        m_PersistentCalls:
+          m_Calls: []
+      specificEndActions:
+        m_PersistentCalls:
+          m_Calls: []
+    - id: 3
+      targetInteractableName: Cashier
+      type: 2
+      dialogueText: 
+      dialogueType: 0
+      specificStartActions:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11400000, guid: 13b01dd3b1d08154c85c674cca4ab8b1, type: 2}
+            m_TargetAssemblyTypeName: NailSalonTycoon.Tutorial.TutorialSpecificAction,
+              com.nail-salon-tycoon.tutorial
+            m_MethodName: AddMoney
+            m_Mode: 4
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 2.2
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+      specificEndActions:
+        m_PersistentCalls:
+          m_Calls: []
+    - id: 4
+      targetInteractableName: Close
+      type: 2
+      dialogueText: 
+      dialogueType: 0
+      specificStartActions:
+        m_PersistentCalls:
+          m_Calls: []
+      specificEndActions:
+        m_PersistentCalls:
+          m_Calls: []
+    - id: 5
+      targetInteractableName: Background
+      type: 0
+      dialogueText: Very well. You are now familiar with the basics.
+      dialogueType: 0
+      specificStartActions:
+        m_PersistentCalls:
+          m_Calls: []
+      specificEndActions:
+        m_PersistentCalls:
+          m_Calls: []
+    - id: 6
+      targetInteractableName: Background
+      type: 0
+      dialogueText: I think you can handle it by yourself now!
+      dialogueType: 2
+      specificStartActions:
+        m_PersistentCalls:
+          m_Calls: []
+      specificEndActions:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11400000, guid: 13b01dd3b1d08154c85c674cca4ab8b1, type: 2}
+            m_TargetAssemblyTypeName: NailSalonTycoon.Tutorial.TutorialSpecificAction,
+              com.nail-salon-tycoon.tutorial
+            m_MethodName: AddMoney
+            m_Mode: 4
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 1500
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+    isActive: 0
+  _interactableObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  ioPulsers: []
+  uiButtons:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

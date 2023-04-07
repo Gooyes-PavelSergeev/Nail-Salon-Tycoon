@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "981437620168",
+    "project_id": "nail-salon-tycoon-e124b",
+    "storage_bucket": "nail-salon-tycoon-e124b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981437620168:android:822499cad0d6eaa23eaafd",
+        "android_client_info": {
+          "package_name": "com.gamezmonster.nailsalontycoon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981437620168-rtckpmlnu6tlbef5vqu8hkb5nr95ebsa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnj4QDkDcsz1nBI7TVkj8VLaPavyQ6-xs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981437620168-rtckpmlnu6tlbef5vqu8hkb5nr95ebsa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

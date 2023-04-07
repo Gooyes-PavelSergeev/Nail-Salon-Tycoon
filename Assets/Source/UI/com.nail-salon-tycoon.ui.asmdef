@@ -1,0 +1,22 @@
+{
+    "name": "com.nail-salon-tycoon.ui",
+    "rootNamespace": "",
+    "references": [
+        "GUID:55c68fe5500846443886b961a5b0a468",
+        "GUID:b4fee89554c98a646bd0ed63f079fbb2",
+        "GUID:79c66e4bc80a7cd4288f7d473268702d",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:bf6fbd649b0a919408896582f6a76876",
+        "GUID:4d12869bca5e77c4494202cebaecbf35",
+        "GUID:a0858fa49e606f34ca9c4e86ed9fbc9f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

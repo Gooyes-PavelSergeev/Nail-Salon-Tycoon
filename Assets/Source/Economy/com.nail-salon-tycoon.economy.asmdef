@@ -1,0 +1,16 @@
+{
+    "name": "com.nail-salon-tycoon.economy",
+    "rootNamespace": "",
+    "references": [
+        "GUID:b4fee89554c98a646bd0ed63f079fbb2"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
